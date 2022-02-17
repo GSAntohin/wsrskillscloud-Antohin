@@ -1,0 +1,9 @@
+[servers]
+server1 ansible_host=10.11.14.51
+server2 ansible_host=10.11.14.52
+server3 ansible_host=10.11.14.53
+
+[all:vars]
+ansible_user=root
+#ansible_python_interpreter=/usr/bin/python3
+ansible_ssh_private_key_file=/root/.ssh/id_rsa
